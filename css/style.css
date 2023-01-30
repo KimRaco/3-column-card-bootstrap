@@ -1,0 +1,27 @@
+.bg-orange {
+  background-color: hsl(31deg, 77%, 52%);
+  border-radius: 10px 10px 0px 0px;
+}
+
+.bg-cyan {
+  background-color: hsl(184deg, 100%, 22%);
+}
+
+.bg-dark-cyan {
+  background-color: hsl(179deg, 100%, 13%);
+  border-radius: 0px 0px 10px 10px;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-family: "Big Shoulders Display", cursive;
+}
+
+@media screen and (min-width: 992px) {
+  article.bg-orange {
+    border-radius: 10px 0px 0px 10px;
+  }
+  article.bg-dark-cyan {
+    border-radius: 0px 10px 10px 0px;
+  }
+}/*# sourceMappingURL=style.css.map */
